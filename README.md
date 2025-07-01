@@ -15,7 +15,7 @@ This project provides a GUI for American Sign Language (ASL) sign prediction usi
    pip install -r requirements.txt
    ```
 3. **Download the trained model:**
-   - [Download the model from Google Drive](YOUR_MODEL_LINK_HERE)
+   - [Download the model from Google Drive](https://drive.google.com/drive/folders/1KNl-eraWztNUTyKHrfU3Jpcmd5pEGK6N?usp=drive_link)
    - Place the downloaded `.keras` model file in the project directory and update the `MODEL_PATH` in the code if needed.
 
 ## Usage
