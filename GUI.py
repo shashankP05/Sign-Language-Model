@@ -20,7 +20,7 @@ IMG_SIZE = (200, 200)
 # Check if current time is within allowed hours (6pm to 10pm)
 def is_operational_time():
     now = datetime.now().time()
-    start = now.replace(hour=13, minute=0, second=0, microsecond=0)
+    start = now.replace(hour=18, minute=0, second=0, microsecond=0)
     end = now.replace(hour=22, minute=0, second=0, microsecond=0)
     return start <= now <= end
 
